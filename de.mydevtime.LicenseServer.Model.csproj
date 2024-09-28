@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Company>MyDevTime</Company>
+        <Version>0.5</Version>
+        <Authors>Benedikt Papiorek</Authors>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\de.mydevtime.License\de.mydevtime.License.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Weikio.PluginFramework.Abstractions" Version="1.5.1" />
+    </ItemGroup>
+
+</Project>
